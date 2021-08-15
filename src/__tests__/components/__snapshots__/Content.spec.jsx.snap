@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content should render correctly 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="search-bar"
+  >
+    <div
+      className="search-bar__background p-1"
+    >
+      <div
+        className="searchbox"
+      >
+        <input
+          aria-label="Search"
+          className="form-control textBox"
+          id="pickup-location"
+          onChange={[MockFunction]}
+          placeholder="Pickup Location"
+          type="search"
+          value="mockCity"
+        />
+        <div
+          className="card searchbox__suggestions"
+        >
+          <ul
+            className="searchbox__listing pt-2"
+          >
+            <ListOfCities
+              getSelectedCity={[MockFunction]}
+              key="0"
+              keyFields="mockKey"
+              listOfCities={
+                Object {
+                  "mockKey": "mockValue",
+                }
+              }
+            />
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="backSection"
+  />
+</div>
+`;
+
+exports[`Content should render correctly when listOfCities is empty 1`] = `
+<div
+  className="section"
+>
+  <div
+    className="search-bar"
+  >
+    <div
+      className="search-bar__background p-1"
+    >
+      <div
+        className="searchbox"
+      >
+        <input
+          aria-label="Search"
+          className="form-control textBox"
+          id="pickup-location"
+          onChange={[MockFunction]}
+          placeholder="Pickup Location"
+          type="search"
+          value="mockCity"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="backSection"
+  />
+</div>
+`;

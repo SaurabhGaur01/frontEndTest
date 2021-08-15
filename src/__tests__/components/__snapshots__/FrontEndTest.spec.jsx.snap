@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FrontEndTest should render correctly 1`] = `
+<div
+  className="app"
+>
+  <Header />
+  <Content
+    getSelectedCity={[Function]}
+    listOfCities={Object {}}
+    onCityChange={[Function]}
+    selectedCity=""
+  />
+</div>
+`;

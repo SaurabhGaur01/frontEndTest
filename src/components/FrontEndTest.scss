@@ -1,0 +1,70 @@
+.appHeader {
+    background: #1879ca;
+}
+
+.section {
+    position: relative;
+}
+
+.backSection {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    background: #1879ca;
+    height: 20px;
+}
+
+.search-bar {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 calc(4px*4);
+}
+
+.search-bar__background {
+    background: #ffb700;
+    border-radius: calc(4px*2);
+    box-shadow: 0 calc(4px/2) calc(4px*2) rgba(0,0,0,.16);
+}
+
+.searchbox {
+    position: relative;
+}
+
+.searchbox__suggestions {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    animation: fadeIn .5s;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 calc(4px/2) calc(4px*2) rgba(0,0,0,.16);
+    width: 100%;
+}
+
+.searchbox__listing {
+    list-style: none;
+}
+
+.listingItem {
+    cursor: pointer;
+}
+
+.iconDisplay {
+    height: 25px;
+    width: 100px;
+}
+
+.textBox {
+    font-weight: 700;
+}
+
+.listingItem:hover {
+    background: lightblue;
+}
+
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
